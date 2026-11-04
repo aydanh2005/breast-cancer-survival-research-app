@@ -1,0 +1,28 @@
+{
+  "artifact_purpose": "Public Streamlit academic research demonstration",
+  "clinical_use": false,
+  "deployment_model_is_scientific_evidence": false,
+  "scientific_results_source": "Repeated 5-fold cross-validation with 3 repetitions",
+  "evaluation_time_months": 59.9,
+  "training_patients": 2376,
+  "training_events": 601,
+  "features": [
+    "age_at_diagnosis",
+    "tumour_size_mm",
+    "histological_grade",
+    "positive_lymph_nodes",
+    "er_status",
+    "pr_status",
+    "her2_status",
+    "histological_subtype"
+  ],
+  "random_seed": 2026,
+  "deployment_rsf_trees": 60,
+  "deployment_rsf_max_depth": 10,
+  "oof_rsf_descriptive_thresholds": {
+    "lower_quartile": 0.15341478813374612,
+    "upper_quartile": 0.3371114046923106
+  },
+  "full_cohort_rsf_mean_predicted_risk": 0.2615700130514001,
+  "important_limitation": "This compact full-cohort fit supports the online software demonstration only. Thesis conclusions use the saved repeated out-of-fold results."
+}

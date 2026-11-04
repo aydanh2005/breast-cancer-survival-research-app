@@ -1,0 +1,4 @@
+comparison,c_index_difference,ci_95_lower,ci_95_upper,ci_excludes_zero
+Random Survival Forest minus NPI-based Cox,0.021126819057744717,0.0042750602706049055,0.03696584648581969,True
+Random Survival Forest minus Multivariable Cox,0.0075868828493588225,-0.004386424917173032,0.019819796973325202,False
+Multivariable Cox minus NPI-based Cox,0.013539936208385894,-0.0021419230754549877,0.0294704785682745,False
