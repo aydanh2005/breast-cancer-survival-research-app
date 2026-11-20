@@ -38,3 +38,7 @@ entry point to `app.py`.
 - Deployment random seed: 2026
 - Scientific results: repeated stratified 5-fold validation, three repetitions
 - Performance uncertainty: paired patient-level bootstrap
+
+## Data licensing
+
+The processed METABRIC-derived dataset included in `data/processed/` is redistributed under the Open Data Commons Open Database License (ODbL) 1.0. Public use must attribute cBioPortal and the original METABRIC publications. Shared or adapted versions must remain open and be offered under the same ODbL terms. See [DATA_LICENSE.md](DATA_LICENSE.md) for full attribution and licensing information.
